@@ -16,6 +16,7 @@ then print the gross pay,the taxes and the net pay. Assume the following;
 #include<iostream>
 using namespace std;
 int main(){
+	//declare variables 
 	double hours,wage,grossPay,taxes,netPay;
 	//input
 	cout<<"Enter hours worked in a week:";
