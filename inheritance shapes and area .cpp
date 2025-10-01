@@ -1,3 +1,9 @@
+/*
+Name: Ian Kibiwott
+REG NO- BCS-03-0111/2025 
+ASSIGNMENT FOR INHERITANCE OF SHAPE RECTANGLE AND AREA 
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
