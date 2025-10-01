@@ -1,3 +1,8 @@
+/*Name :Ian Kibiwott
+reg :BCS-03-0111/2025
+	ASSIGNMENT: Constructors */
+
+
 #include<iostream>
 using namespace std;
 //class definition 
