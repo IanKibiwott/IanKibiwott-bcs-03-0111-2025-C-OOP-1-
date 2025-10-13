@@ -9,13 +9,14 @@ using namespace std;
  //Base class Person 
  class Person {
 	 protected:
+//protected data member name
 	 	string name;
 	 	public:
-	 		//function to set name 
+	 		//public function to set name 
 	 		void setName(string n){
 				 name = n;
 			 }
-			 //function to get  name
+			 //public function to get  name
 			 string getName(){
 				 return name;
 			 }
@@ -23,6 +24,7 @@ using namespace std;
  //derived class LibraryMember inheriting from Person
  class LibraryMember: public Person{
 	 private:
+//private data members 
 	 	int memberID;
 	 	int booksBorrowed;
 	 	public:
@@ -46,6 +48,7 @@ using namespace std;
  //further derived class PremiumMember Inheriting from LibraryMember
  class PremiumMember: public LibraryMember{
 	 private:
+//private data members 
 	 	double membershipFee;
 	 	public:
 	 		//constructor that calls base class constructor 
@@ -62,6 +65,7 @@ using namespace std;
 	 PremiumMember Member("John doe",1232,2,200.00);
 	 //Display 
 	 cout << "\n===LIBRARY MANAGEMENT SYSTEM===" << endl;
+	  cout<< "Member Name:" << Member.getName() << endl;
 	 cout << "Member Id:" << Member.getMemberID() << endl;
 	 cout << "Books Borrowed" << Member.getBooksBorrowed() << endl;
 	 cout << "Membership fee " << Member.getMembershipFee() << endl;
